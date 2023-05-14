@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Instant Meet</title>
+    <style>
+      /* CSS for the banner and content */
+      .banner {
+        background-image: url("img/banner.jpeg");
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        height: 600px;
+        padding-top: 100px;
+      }
+
+      .producthunt{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+
+      .heading {
+        font-size: 60px;
+        margin-bottom: 10px;
+        max-width: 800px;
+        text-align: center;
+        line-height: 1.2;
+        margin: auto;
+        margin-top: 50px;
+      }
+
+      .subheading {
+        font-family: "Albert Sans" !important;
+        font-size: 25px;
+        margin-top: 70px;
+        justify-content: center;
+        max-width: 1000px;
+        text-align: center;
+        line-height: 1.2;
+      }
+
+      .logo {
+        max-width: 100px;
+        margin-right: 20px;
+        justify-content: center;
+        border-radius: 10px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 0px;
+      }
+
+      .bold-text {
+        font-weight: 100 !important;
+        color: blueviolet;
+      }
+
+      .img2 {
+        margin-left: 30px;
+      }
+
+      .button {
+        display: inline-block;
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-top: 20px;
+      }
+
+      .meet {
+        color: blueviolet;
+      }
+
+      body {
+        font-family: "Albert Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .banner2 {
+        background-color: #b4e0b4; /* Green background color */
+        color: black; /* Text color */
+        padding: 20px;
+        text-align: center;
+        height: 500px;
+        font-size: 20px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner-content {
+        max-width: 100%;
+        margin: auto;
+      }
+
+      .banner-text {
+        font-size: 30px;
+        color: black;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .button-container {
+        display: flex;
+        cursor: pointer;
+        margin: auto;
+        margin-top: 30px;
+        justify-content: center;
+      }
+
+      /* CSS */
+      .black-button {
+        cursor: pointer;
+        width: 350px;
+        color: white;
+        background-color: black;
+        margin-right: 2%;
+        position: relative;
+        padding: 20px;
+      }
+
+      footer {
+        background-color: #f5f5f5;
+        padding: 20px;
+        color: black;
+        text-align: right;
+        padding-right: 50px; /* Align text to the right */
+      }
+
+      .footer-links {
+        text-align: right; /* Align links to the right */
+      }
+
+      .footer-links a {
+        color: #333333;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      .footer-links a:hover {
+        text-decoration: underline;
+      }
+
+      .timeline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Center the timeline horizontally */
+        max-width: 900px;
+        /* Adjust the max-width as needed */
+        margin: 0 auto;
+        margin-top: 20px;
+        /* Center the timeline container on the page */
+      }
+
+      .timeline-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        /* Add a border line */
+        padding-bottom: 10px;
+        /* Add some space below the line */
+      }
+
+      .timeline-image {
+        margin-right: 20px;
+      }
+
+      .timeline-image img {
+        max-width: 500px;
+        border-radius: 10px;
+      }
+
+      .timeline-content {
+        flex: 1;
+      }
+
+      .timeline-content h2 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .timeline-content p {
+        font-size: 14px;
+      }
+
+      .footer-line {
+        text-align: left;
+        margin-top: 10px;
+      }
+
+      .footer-line p {
+        color: #666666;
+        font-size: 14px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <script>
+    function openInstallPage() {
+      window.open(
+        "https://instantmeet.instantapp.tech/slack/install",
+        "_blank"
+      );
+    }
+
+    function openPaymentPage() {
+      window.open(
+        "https://instantapp.lemonsqueezy.com/checkout/buy/2d8f9131-4822-48a7-b407-ac886c83be32",
+        "_blank"
+      );
+    }
+  </script>
+
+  <body>
+    <div class="banner">
+      <div class="product-info">
+        <img src="./img/dhdh.gif" alt="Logo" class="logo" />
+        <h3 class="heading">
+          Create <strong class="bold-text">Google Meeting</strong> With Instant
+          Meet on Slack
+        </h3>
+
+        <h2 class="subheading">
+          Effortlessly create meetings with our secure and convenient app using
+          <span class="meet">/meet</span> command
+        </h2>
+        <a
+        class="producthunt"
+          href="https://www.producthunt.com/posts/instant-meet-slack-app?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-instant&#0045;meet&#0045;slack&#0045;app"
+          target="_blank"
+          ><img
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=388848&theme=light"
+            alt="Instant&#0032;Meet&#0032;Slack&#0032;App - Create&#0032;instant&#0032;Google&#0032;Meet&#0032;from&#0032;Slack | Product Hunt"
+            style="width: 250px; height: 54px"
+            width="250"
+            height="54"
+        /></a>
+        <button
+          onclick="openInstallPage()"
+          class="black-button"
+          style="margin-left: 30%; margin-top: 10px; font-size: 20px"
+        >
+          <!-- <img
+              src="https://softr-prod.imgix.net/applications/48c1c9b9-191e-4cc4-b453-0c51f6400c65/assets/269e2ee6-6492-4c60-9034-a9bad82d8f41.png"
+              height="48px"
+              width="48px"
+            /></div> -->
+          Add Instant Meet To Slack →
+        </button>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-image">
+          <img src="./img/img1.jpeg" alt="Image 1" />
+        </div>
+        <div class="timeline-content">
+          <h2 style="font-weight: bolder">Create Meetings</h2>
+          <p>
+            The <span class="meet">/meet</span> command can be used to generate
+            meetings in public or private channels, as well as direct messages.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h2>Need Support</h2>
+          <p>
+            To either update your Google account or submit a query, simply
+            utilize the <span class="meet">/meet help</span>
+            command.
+          </p>
+        </div>
+        <div class="timeline-image">
+          <img class="img2" src="./img/img2.jpeg" alt="Image 2" />
+        </div>
+      </div>
+    </div>
+    <div class="banner2">
+      <div class="banner-content">
+        <p class="banner-text">
+          Our app is available for <span class="meet">FREE</span> to benefit
+          organizations, and we prioritize privacy by only
+          <b>requesting necessary access unlike other apps</b>.
+        </p>
+        <p>
+          This app is free , you can help us keep it running by donating using
+          the link provided below.
+        </p>
+        <div class="button-container">
+          <button class="black-button" onclick="openInstallPage()">
+            <!-- <img
+              src="https://softr-prod.imgix.net/applications/48c1c9b9-191e-4cc4-b453-0c51f6400c65/assets/269e2ee6-6492-4c60-9034-a9bad82d8f41.png"
+              height="48px"
+              width="48px"
+            /></div> -->
+            Add Instant Meet To Slack →
+          </button>
+          <button class="black-button" onclick="openPaymentPage()">Contribute Here ❤️ →</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-links">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="mailto:support@instantapp.tech">Contact Us</a>
+      </div>
+      <div class="footer-line">
+        <p>© 2023 instantapp.tech. All rights reserved. Made with ❤️</p>
+      </div>
+    </footer>
+  </body>
+</html>
